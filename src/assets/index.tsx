@@ -1,8 +1,3 @@
+export const Icons = {}
 
-export const Icons:object ={
-
-}
-
-export const Images:object={
-
-}
+export const Images = {}

@@ -1,3 +1,4 @@
-export const COLORS :object = {
-    White:"#fff"
+export const COLORS = {
+  White: '#fff',
+  Black: '#f0f8ff',
 }
