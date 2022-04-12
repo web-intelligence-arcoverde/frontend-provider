@@ -1,0 +1,28 @@
+import styled from 'styled-components'
+import { COLORS } from 'src/common'
+
+export const Container = styled.div`
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  background-color: ${COLORS.black};
+  align-items: center;
+  color: ${COLORS.gray};
+  @media (max-width: 769px) {
+    display: none;
+  }
+`
+
+export const Contact = styled.div`
+  display: flex;
+  margin-left: 10%;
+
+  gap: 20px;
+  text-align: center;
+  a {
+    color: #42a5f5;
+  }
+`
+export const CardIcons = styled.div`
+  margin-right: 10%;
+`
