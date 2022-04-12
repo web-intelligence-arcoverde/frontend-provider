@@ -1,5 +1,11 @@
+import Top from 'src/components/molecule/Top'
+
 const Home = () => {
-  return <h1>Home</h1>
+  return (
+    <div>
+      <Top />
+    </div>
+  )
 }
 
 export default Home
