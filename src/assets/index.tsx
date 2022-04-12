@@ -1,13 +1,15 @@
-import Facebook from './facebook.svg'
-import Instagram from './instagram.svg'
-import Whatsapp from './whatsapp.svg'
-import Linkedin from './linkedin.svg'
+import Facebook from './icons/facebook.svg'
+import Instagram from './icons/instagram.svg'
+import Whatsapp from './icons/whatsapp.svg'
+import Linkedin from './icons/linkedin.svg'
 
-export const Icons = {
-  facebook: Facebook,
-  instagram: Instagram,
-  whatsapp: Whatsapp,
-  linkedin: Linkedin,
-}
+export const SocialMediaIcons = [
+  { icon: Facebook },
+  { icon: Instagram },
+  { icon: Whatsapp },
+  { icon: Linkedin },
+]
+
+export const Icons = {}
 
 export const Images = {}

@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { Container } from './styles'
+import { CardButton } from './styles'
 
 interface ButtonProps {
   children: ReactNode
@@ -7,5 +7,5 @@ interface ButtonProps {
 }
 
 export const Button = ({ children, onClick }: ButtonProps) => {
-  return <Container onClick={onClick}>{children}</Container>
+  return <CardButton onClick={onClick}>{children}</CardButton>
 }
