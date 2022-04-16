@@ -36,6 +36,7 @@ export const NavContainer = styled.ul`
     }
     a {
       font-size: 24px;
+      text-decoration: none;
       color: ${COLORS.white};
     }
   }

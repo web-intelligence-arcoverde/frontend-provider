@@ -6,7 +6,8 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap'
-import { Container } from './style'
+import { Container, CardButton } from './style'
+import { Button } from 'src/components/atomic/Button/Button'
 
 const items = [
   {
@@ -83,6 +84,10 @@ const Slide = ({ props }: any) => {
           onClickHandler={next}
         />
       </Carousel>
+      <CardButton>
+        <Button onClick={() => {}} children="Saiba Mais" />
+        <Button onClick={() => {}} children="Torne-se um cliente" />
+      </CardButton>
     </Container>
   )
 }
