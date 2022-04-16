@@ -5,6 +5,7 @@ import { Container } from './style'
 const IMAGES = [
   {
     url: 'https://livedemo00.template-help.com/wt_57837/images/page-1_slide01.jpg?1650025268578',
+    title: 'deagraça',
   },
   {
     url: 'https://livedemo00.template-help.com/wt_57837/images/page-1_slide02.jpg?1650025269155',

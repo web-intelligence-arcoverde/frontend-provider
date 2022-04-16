@@ -5,15 +5,16 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 60px;
   position: absolute;
   top: 5%;
-  z-index: 999;
+  z-index: 2;
   width: 100%;
+  color: ${COLORS.white};
 
   h2 {
     transition: 1s;
-    color: ${COLORS.white};
+  
     margin-left: 400px;
     :hover {
       color: ${COLORS.blue};
