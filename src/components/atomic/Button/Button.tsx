@@ -2,10 +2,10 @@ import { ReactNode } from 'react'
 import { CardButton } from './styles'
 
 interface ButtonProps {
-  children: ReactNode
+  title: ReactNode
   onClick: () => void
 }
 
-export const Button = ({ children, onClick }: ButtonProps) => {
-  return <CardButton onClick={onClick}>{children}</CardButton>
+export const Button = ({ title, onClick }: ButtonProps) => {
+  return <CardButton onClick={onClick}>{title}</CardButton>
 }

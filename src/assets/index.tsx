@@ -2,6 +2,7 @@ import Facebook from './icons/facebook.svg'
 import Instagram from './icons/instagram.svg'
 import Whatsapp from './icons/whatsapp.svg'
 import Linkedin from './icons/linkedin.svg'
+import LogoWeb from './icons/logoweb.svg'
 
 import TodoListImage from './images/todolist.png'
 import MoneyImage from './images/money.png'
@@ -12,6 +13,14 @@ export const SocialMediaIcons = [
   { icon: Instagram },
   { icon: Whatsapp },
   { icon: Linkedin },
+]
+export const PartnersLogo = [
+  { icon: LogoWeb },
+  { icon: LogoWeb },
+  { icon: LogoWeb },
+  { icon: LogoWeb },
+  { icon: LogoWeb },
+  { icon: LogoWeb },
 ]
 
 export const SlideImgArray = [
