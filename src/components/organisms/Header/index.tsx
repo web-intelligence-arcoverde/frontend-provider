@@ -1,6 +1,7 @@
 import React from 'react'
 import NavHeader from 'src/components/molecules/NavHeader'
-import SlideSection from 'src/components/molecules/Slide'
+import Slide from '../../molecules/Slide'
+
 import Top from 'src/components/molecules/Top'
 import { Container } from './style'
 
@@ -9,7 +10,7 @@ const Header: React.FC = () => {
     <Container>
       <Top />
       <NavHeader />
-      <SlideSection />
+      <Slide />
     </Container>
   )
 }
