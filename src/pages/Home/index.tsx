@@ -1,9 +1,9 @@
-import Top from 'src/components/molecule/Top'
+import Header from 'src/components/organisms/Header'
 
 const Home = () => {
   return (
     <div>
-      <Top />
+      <Header />
     </div>
   )
 }

@@ -16,7 +16,7 @@ export const Container = styled.div`
 export const Contact = styled.div`
   display: flex;
   margin-left: 10%;
-
+  margin-top: 20px;
   gap: 20px;
   text-align: center;
   a {
