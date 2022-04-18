@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 60px;
   position: absolute;
   top: 5%;
@@ -12,15 +12,28 @@ export const Container = styled.div`
   width: 100%;
   color: ${COLORS.white};
 
-  h2 {
-    transition: 1s;
-  
-    margin-left: 400px;
-    :hover {
+`
+export const Phone = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  filter: grayscale(70%);
+    :hover{
+      filter: grayscale(0%);
       color: ${COLORS.blue};
+     
     }
+  img {
+    width: 25px;
+    margin-bottom: 5px;
+    
+  }
+  h5 {
+    transition: 1s;
   }
 `
+
 export const NavContainer = styled.ul`
   display: flex;
   align-items: center;
