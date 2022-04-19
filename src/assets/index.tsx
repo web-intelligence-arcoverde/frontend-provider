@@ -2,6 +2,10 @@ import Facebook from './icons/facebook.svg'
 import Instagram from './icons/instagram.svg'
 import Whatsapp from './icons/whatsapp.svg'
 import Linkedin from './icons/linkedin.svg'
+import FacebookWhite from './icons/facebookwhite.svg'
+import InstagramWhite from './icons/instagramwhite.svg'
+import WhatsappWhite from './icons/whatsappwhite.svg'
+import LinkedinWhite from './icons/linkedinwhite.svg'
 import LogoWeb from './icons/logoweb.svg'
 import Phone from './icons/phone.svg'
 import TodoListImage from './images/todolist.png'
@@ -15,10 +19,16 @@ import Security from './icons/security.svg'
 import Wifi from './icons/wifi.svg'
 
 export const SocialMediaIcons = [
-  { icon: Facebook },
-  { icon: Instagram },
-  { icon: Whatsapp },
-  { icon: Linkedin },
+  { icon: Facebook, hrf: '#', alt: 'facebook icon' },
+  { icon: Instagram, hrf: '#', alt: 'Instagram icon' },
+  { icon: Whatsapp, hrf: '#', alt: 'Whatsapp icon' },
+  { icon: Linkedin, hrf: '#', alt: 'Linkedin icon' },
+]
+export const SocialMediaWhiteIcons = [
+  { icon: FacebookWhite, hrf: '#', alt: 'facebook icon' },
+  { icon: InstagramWhite, hrf: '#', alt: 'Instagram icon' },
+  { icon: WhatsappWhite, hrf: '#', alt: 'Whatsapp icon' },
+  { icon: LinkedinWhite, hrf: '#', alt: 'Linkedin icon' },
 ]
 export const PartnersLogo = [
   { icon: LogoWeb },
