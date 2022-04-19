@@ -13,6 +13,7 @@ import Money from './icons/money.svg'
 import Payment from './icons/payment.svg'
 import Security from './icons/security.svg'
 import Wifi from './icons/wifi.svg'
+import Chat from './animations/message.json'
 
 export const SocialMediaIcons = [
   { icon: Facebook },
@@ -54,3 +55,7 @@ export const Icons = {
 }
 
 export const Images = {}
+
+export const Animation = {
+  chat: Chat,
+}
