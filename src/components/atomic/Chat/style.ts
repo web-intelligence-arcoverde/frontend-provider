@@ -6,7 +6,8 @@ export const CardChat = styled.div`
   right: 2%;
   background-color: white;
   border-radius:50%;
-  padding:5px;
-  
- 
+  height: 60px;
+
 `;
+
+

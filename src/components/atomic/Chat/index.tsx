@@ -1,4 +1,3 @@
-import { Button } from '../Button/Button'
 import { CardChat } from './style'
 import Lottie from 'react-lottie'
 import { Animation } from 'src/assets'
@@ -9,17 +8,25 @@ const Chat = () => {
   const handleHover = () => {
     setAnimation(true)
   }
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: Animation.chat,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
-    },
+  const handleExit = () => {
+    setAnimation(false)
   }
+
+  console.log(animation)
+
   return (
-    <CardChat onMouseOver={handleHover}>
-      {animation && <Lottie options={defaultOptions} width="50px" />}
+    <CardChat onMouseLeave={handleExit} onMouseEnter={handleHover}>
+      <Lottie
+        options={{
+          loop: false,
+          autoplay: true,
+          animationData: Animation.chat,
+          rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice',
+          },
+        }}
+        width="60px"
+      />
     </CardChat>
   )
 }
