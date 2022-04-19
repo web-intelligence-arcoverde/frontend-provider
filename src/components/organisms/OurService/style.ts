@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { COLORS } from 'src/common'
 
-export const CardTitle = styled.div`
+export const Title = styled.div`
   display: flex;
   align-items: center;
   h1 {
@@ -19,5 +19,11 @@ export const Line = styled.div`
   background-color: ${COLORS.black};
   width: 100px;
   margin-bottom: 5px;
-  
+`
+export const MiniContainer = styled.div`
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 `
