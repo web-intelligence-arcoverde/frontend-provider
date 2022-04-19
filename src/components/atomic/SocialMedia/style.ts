@@ -5,7 +5,6 @@ export const CardImgs = styled.div`
   align-items: center;
   gap: 15px;
 `
-
 export const Img = styled.img`
   width: 30px;
   height: 30px;
