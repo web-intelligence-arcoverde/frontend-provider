@@ -27,6 +27,7 @@ interface ContainerProps {
   background?: string
   responsive?: string
   height?: string
+  width?: string
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -34,6 +35,7 @@ export const Container = styled.div<ContainerProps>`
   flex-direction: ${({ direction }) => (direction ? 'row' : 'column')};
   justify-content: ${props => (props.justify ? props.justify : 'center')};
   align-items: ${props => (props.align ? props.align : 'center')};
+  width: ${props => (props.width ? props.width : '100%')};
   height: ${props => (props.height ? props.height : '100vh')};
   background: ${props => (props.background ? props.background : 'transparent')};
   @media (max-width: 769px) {
