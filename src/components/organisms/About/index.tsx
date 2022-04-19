@@ -17,6 +17,7 @@ const About = () => {
             equipment will beat the competing ones.
           </p>
           <Button
+            background
             onClick={(): void => {
               window.scrollTo(0, 0)
             }}

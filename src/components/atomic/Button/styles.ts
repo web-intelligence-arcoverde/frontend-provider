@@ -1,10 +1,14 @@
 import { COLORS } from 'src/common'
 import styled from 'styled-components'
 
-export const CardButton = styled.button`
+interface ButtonProps {
+  background?: string
+}
+
+export const CardButton = styled.button<ButtonProps>`
   cursor: pointer;
   width: 250px;
-  background: ${COLORS.white};
+  background: ${({ background }) => (background ? COLORS.blue : COLORS.white)};
   color: ${COLORS.black};
   font-size: 16px;
   padding: 20px 30px;
