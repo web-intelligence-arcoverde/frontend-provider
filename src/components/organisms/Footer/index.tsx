@@ -8,7 +8,7 @@ const anoAtual = new Date().getFullYear()
 
 const Footer = () => {
   return (
-    <Container height="30vh" background={COLORS.black}>
+    <Container height="20vh" background={COLORS.black}>
       <SocialMedia>
         {SocialMediaWhiteIcons.map(media => (
           <a href={media.hrf}>
