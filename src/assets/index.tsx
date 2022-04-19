@@ -7,6 +7,12 @@ import Phone from './icons/phone.svg'
 import TodoListImage from './images/todolist.png'
 import MoneyImage from './images/money.png'
 import KeyImage from './images/key.png'
+import BroandBand from './icons/broandband.svg'
+import Connection from './icons/connection.svg'
+import Money from './icons/money.svg'
+import Payment from './icons/payment.svg'
+import Security from './icons/security.svg'
+import Wifi from './icons/wifi.svg'
 
 export const SocialMediaIcons = [
   { icon: Facebook },
@@ -33,6 +39,14 @@ export const SlideImgObjct = {
   Todo: TodoListImage,
   Money: MoneyImage,
   Key: KeyImage,
+}
+export const IconsServices = {
+  broandband: BroandBand,
+  money: Money,
+  wifi: Wifi,
+  payment: Payment,
+  connection: Connection,
+  security: Security,
 }
 
 export const Icons = {
