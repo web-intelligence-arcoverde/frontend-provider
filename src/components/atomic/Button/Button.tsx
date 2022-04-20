@@ -6,7 +6,7 @@ interface ButtonProps {
   background?: any
   children: ReactNode
   onClick: () => void
-  onMouseOver: () => void
+  onMouseOver?: () => void
 }
 
 export const Button = ({

@@ -8,9 +8,12 @@ const FadeInAnimation = keyframes`
 
 export const Container = styled.div`
   .carousel-item {
+    width: 100%;
     height: 100vh;
     animation: ${FadeInAnimation} 1s ease-in-out;
-  }
+   
+  
+  } 
   .carousel-item h3 {
     position: absolute;
     bottom: 350px;
@@ -36,11 +39,17 @@ export const CardButton = styled.div`
   position: relative;
   bottom: 180px;
   gap: 15px;
-
+  @media (max-width:769px){
+      flex-direction: column-reverse;
+      position: absolute;
+      bottom: 150px;
+      
+    }
   Button {
     :hover {
       background-color: ${COLORS.blue};
       color: ${COLORS.white};
     }
+   
   }
 `

@@ -6,5 +6,9 @@ export const Container = styled.div`
   flex-direction: column;
   height: 100vh;
   margin-bottom: 100px;
-
+  @media (max-width:769px){
+    margin: 0;
+    width: 100%;
+    height: 90vh;
+  }
 `

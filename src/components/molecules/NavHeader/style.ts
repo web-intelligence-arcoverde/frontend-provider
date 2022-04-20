@@ -11,6 +11,9 @@ export const Container = styled.div`
   z-index: 2;
   width: 100%;
   color: ${COLORS.white};
+  @media (max-width:769px){
+      display: none;
+    }
 
 `
 export const Phone = styled.div`
@@ -52,5 +55,6 @@ export const NavContainer = styled.ul`
       text-decoration: none;
       color: ${COLORS.white};
     }
+  
   }
 `
