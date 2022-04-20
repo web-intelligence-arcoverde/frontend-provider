@@ -1,11 +1,13 @@
 import React from 'react'
 import { NavMock } from 'src/__mocks__/nav'
-import { Container, NavContainer, Phone } from './style'
+import { Container, LogoWeb, NavContainer, Phone } from './style'
 import { Icons } from 'src/assets'
+import Logo from 'assets/icons/logoweb.svg'
+
 const NavHeader: React.FC = () => {
   return (
     <Container>
-      <h1>Web</h1>
+      <LogoWeb src={Logo} alt="*" width="150px" />
       <Phone>
         <img src={Icons.phone} alt="phone" />
         <h5>(87)92022440</h5>

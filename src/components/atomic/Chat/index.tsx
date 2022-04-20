@@ -22,7 +22,7 @@ const Chat = () => {
         <CardAnimation>
           <Lottie
             options={{
-              loop: true,
+              loop: false,
               autoplay: true,
               animationData: Animation.chat,
               rendererSettings: {

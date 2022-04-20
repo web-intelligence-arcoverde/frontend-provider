@@ -8,6 +8,7 @@ export const ImgContainer = styled.div`
   background-image: url(https://livedemo00.template-help.com/wt_57837/images/page-1_img01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  
 `
 
 export const Divider = styled.div`
@@ -18,4 +19,8 @@ export const Divider = styled.div`
 export const Describe =styled.p`
 font-size: 20px;
 margin: 60px 0;
+@media (max-width:769px){
+    margin: 0;
+    font-size: 17px;
+  }
 `

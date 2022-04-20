@@ -11,7 +11,13 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
     animation: ${FadeInAnimation} 1s ease-in-out;
-   
+   img{
+     width: 100%;
+    @media (max-width:769px){
+      width: 100%;
+      height: 100vh;
+    }
+   }
   
   } 
   .carousel-item h3 {
@@ -19,6 +25,7 @@ export const Container = styled.div`
     bottom: 350px;
     left: 20%;
     font-size: 30px;
+    
   }
   .carousel-item p {
     position: absolute;
@@ -26,6 +33,9 @@ export const Container = styled.div`
     width: 70%;
     left: 20%;
     font-size: 18px;
+    @media (max-width:769px){
+      display: none;
+    }
   }
   .carousel-indicators {
     display: none;

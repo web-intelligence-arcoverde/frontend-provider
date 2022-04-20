@@ -12,9 +12,15 @@ export const Container = styled.div`
   width: 100%;
   color: ${COLORS.white};
   @media (max-width:769px){
-      display: none;
+      flex-direction: column;
+      gap: 80px;
     }
-
+`
+export const LogoWeb =styled.img`
+width: 60px;
+@media (max-width:769px){
+  width:150px ;
+}
 `
 export const Phone = styled.div`
   display: flex;
@@ -35,6 +41,7 @@ export const Phone = styled.div`
   h5 {
     transition: 1s;
   }
+ 
 `
 
 export const NavContainer = styled.ul`
@@ -54,6 +61,9 @@ export const NavContainer = styled.ul`
       font-size: 24px;
       text-decoration: none;
       color: ${COLORS.white};
+    }
+    @media (max-width:769px){
+      display: none;
     }
   
   }
