@@ -19,6 +19,7 @@ import Security from './icons/security.svg'
 import Wifi from './icons/wifi.svg'
 import Chat from './animations/message.json'
 import Message from './icons/message.svg'
+import Menu from './animations/menu.json'
 
 export const SocialMediaIcons = [
   { icon: Facebook, hrf: '#', alt: 'facebook icon' },
@@ -64,10 +65,12 @@ export const IconsServices = {
 export const Icons = {
   phone: Phone,
   message: Message,
+  logo: LogoWeb,
 }
 
 export const Images = {}
 
 export const Animation = {
   chat: Chat,
+  menu: Menu,
 }
