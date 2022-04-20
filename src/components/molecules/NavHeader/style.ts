@@ -13,7 +13,7 @@ export const Container = styled.div`
   color: ${COLORS.white};
   @media (max-width:769px){
       flex-direction: column;
-      gap: 80px;
+      
     }
 `
 export const LogoWeb =styled.img`
@@ -41,7 +41,10 @@ export const Phone = styled.div`
   h5 {
     transition: 1s;
   }
- 
+  @media (max-width:769px){
+      margin-top: 80px;
+      
+    }
 `
 
 export const NavContainer = styled.ul`
