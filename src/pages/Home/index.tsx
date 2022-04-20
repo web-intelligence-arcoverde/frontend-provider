@@ -1,3 +1,4 @@
+import Chat from 'src/components/atomic/Chat'
 import About from 'src/components/organisms/About'
 import Footer from 'src/components/organisms/Footer'
 import Header from 'src/components/organisms/Header'
@@ -12,6 +13,7 @@ const Home = () => {
       <OurService />
       <Partners />
       <Footer />
+      <Chat />
     </div>
   )
 }
