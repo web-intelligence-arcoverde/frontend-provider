@@ -26,6 +26,7 @@ interface ContainerProps {
   align?: string
   background?: string
   responsive?: boolean
+  htresponsive?: boolean
   height?: string
   width?: string
 }
@@ -40,6 +41,7 @@ export const Container = styled.div<ContainerProps>`
   background: ${props => (props.background ? props.background : 'transparent')};
   @media (max-width: 769px) {
     flex-direction: ${({ responsive }) => (responsive ? 'column' : 'row')};
-    height: auto;
+    width: ${({ responsive }) => (responsive ? '100%' : '100%')};
+    height: ${({ htresponsive }) => (htresponsive ? '100vh' : 'auto')};
   }
 `

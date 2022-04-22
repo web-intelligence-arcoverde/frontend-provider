@@ -1,13 +1,13 @@
 import React from 'react'
 import { Button } from 'src/components/atomic/Button/Button'
 import { Container } from '../../../styles/global'
-import { ImgContainer, Divider, Describe } from './style'
+import { ImgContainer, Divider, Describe, TextContainer } from './style'
 
 const About = () => {
   return (
-    <Container id="about" direction="row">
+    <Container direction="row">
       <Container width="60%">
-        <Container responsive align="flex-start" width="60%">
+        <TextContainer>
           <h1>Sobre</h1>
           <Divider />
           <Describe>
@@ -24,7 +24,7 @@ const About = () => {
           >
             Explore Mais
           </Button>
-        </Container>
+        </TextContainer>
       </Container>
       <ImgContainer />
     </Container>
