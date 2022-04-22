@@ -9,10 +9,16 @@ export const Card = styled.div`
   border: 1px solid #cccccc54 ;
   gap: 20px;
   box-shadow: 0px -4px 24px -5px rgba(179,173,179,0.42);
+  :last-child{
+   margin-bottom: 20px;
+  }
   img {
       width: 30px;
   }
   :hover{
     box-shadow: 0px 1px 26px -6px rgba(0,0,0,0.39);
+  }
+  @media (max-width:769px){
+    width: 90%;
   }
 `;

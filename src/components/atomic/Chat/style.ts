@@ -10,6 +10,9 @@ export const CardChat = styled.a`
   background-color: white;
   z-index: 40;
   cursor: pointer ;
+  @media (max-width:769px){
+    display: none;
+  }
 img{
   margin: 5px;
   margin-top: 8px;
