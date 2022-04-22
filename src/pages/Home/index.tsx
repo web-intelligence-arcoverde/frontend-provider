@@ -4,6 +4,7 @@ import Footer from 'src/components/organisms/Footer'
 import Header from 'src/components/organisms/Header'
 import OurService from 'src/components/organisms/OurService'
 import Partners from 'src/components/organisms/Partners'
+import Support from 'src/components/organisms/Support'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Header />
       <About />
       <OurService />
+      <Support />
       <Partners />
       <Footer />
       <Chat />
