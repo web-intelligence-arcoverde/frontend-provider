@@ -22,3 +22,7 @@ export const Number = styled.h1`
 export const Days = styled.p`
   color: ${COLORS.white};
 `
+
+export const H5 = styled.h5`
+  color: ${COLORS.white};
+`
