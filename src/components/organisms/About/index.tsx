@@ -17,6 +17,7 @@ const About = () => {
             gama de serviços e equipamentos superará os concorrentes.
           </Describe>
           <Button
+            color
             background
             onClick={(): void => {
               window.scrollTo(0, 0)

@@ -3,13 +3,14 @@ import styled from 'styled-components'
 
 interface ButtonProps {
   background?: string
+  color?: string
 }
 
 export const CardButton = styled.button<ButtonProps>`
   cursor: pointer;
   width: 250px;
   background: ${({ background }) => (background ? COLORS.blue : COLORS.white)};
-  color: ${COLORS.black};
+  color: ${({ color }) => (color ? COLORS.white : COLORS.black)};
   font-size: 16px;
   padding: 20px 30px;
   border-radius: 30px;
