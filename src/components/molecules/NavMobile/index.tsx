@@ -7,7 +7,7 @@ import NavModal from '../NavModal'
 const NavMobile = () => {
   const [visible, setVisible] = useState(false)
   const handleModal = () => {
-    setVisible(true)
+    setVisible(!visible)
   }
   return (
     <Navigation>

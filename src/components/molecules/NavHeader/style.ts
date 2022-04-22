@@ -19,7 +19,7 @@ export const Container = styled.div`
 export const LogoWeb =styled.img`
 width: 60px;
 @media (max-width:769px){
-  width:150px ;
+  width:100px ;
 }
 `
 export const Phone = styled.div`
