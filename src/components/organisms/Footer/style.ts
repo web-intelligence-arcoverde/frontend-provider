@@ -17,4 +17,8 @@ export const SocialMedia = styled.div`
 `
 export const Copyright = styled.h5`
   color: ${COLORS.white};
+
+  @media (max-width:769px){
+    font-size: 14px;
+  }
 `

@@ -25,7 +25,7 @@ interface ContainerProps {
   justify?: string
   align?: string
   background?: string
-  responsive?: string
+  responsive?: boolean
   height?: string
   width?: string
 }

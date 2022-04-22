@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Container id="about" direction="row">
       <Container width="60%">
-        <Container align="flex-start" width="60%">
+        <Container responsive align="flex-start" width="60%">
           <h1>Sobre</h1>
           <Divider />
           <Describe>
