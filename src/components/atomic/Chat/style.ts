@@ -8,6 +8,7 @@ export const CardChat = styled.a`
   height: 60px;
   width: 60px;
   background-color: white;
+  z-index: 40;
   cursor: pointer ;
 img{
   margin: 5px;

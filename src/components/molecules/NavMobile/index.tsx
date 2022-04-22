@@ -9,6 +9,8 @@ const NavMobile = () => {
   const handleModal = () => {
     setVisible(!visible)
   }
+  const direction: number = visible ? 1 : -1
+  const speed: number = visible ? 1 : 3
   return (
     <Navigation>
       <Default onClick={handleModal}>
@@ -22,6 +24,8 @@ const NavMobile = () => {
             },
           }}
           width="25px"
+          direction={direction}
+          speed={speed}
         />
         <h2>Home</h2>
       </Default>
