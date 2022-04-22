@@ -24,7 +24,7 @@ export const TextContainer = styled.div`
   align-items: flex-start;
   @media (max-width: 769px) {
     text-align: start;
-    margin: 120px 0 30px 0;
+    margin: 150px 0 50px 0;
     width: 90%;
     height: auto;
   }
