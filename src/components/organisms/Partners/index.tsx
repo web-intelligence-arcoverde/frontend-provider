@@ -5,7 +5,7 @@ import { Container, DividerContainer, PartnersLogoContainer } from './style'
 
 const Partners = () => {
   return (
-    <Container>
+    <Container id="partners">
       <h1>Parceiros</h1>
       <DividerContainer />
       <p>

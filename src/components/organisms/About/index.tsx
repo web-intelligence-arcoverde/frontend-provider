@@ -5,7 +5,7 @@ import { ImgContainer, Divider, Describe } from './style'
 
 const About = () => {
   return (
-    <Container direction="row">
+    <Container id="about" direction="row">
       <Container width="60%">
         <Container align="flex-start" width="60%">
           <h1>Sobre</h1>

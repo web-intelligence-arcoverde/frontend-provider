@@ -4,7 +4,7 @@ import { CardIcons, Contact, Container } from './style'
 
 const Top = () => {
   return (
-    <Container>
+    <Container id="home">
       <Contact>
         <p>
           Phone: <a href="google.com">(87) 9999-9999</a>

@@ -25,7 +25,7 @@ const NavMobile = () => {
         />
         <h2>Home</h2>
       </Default>
-      {visible && <NavModal />}
+      {visible && <NavModal setVisible={setVisible} />}
     </Navigation>
   )
 }

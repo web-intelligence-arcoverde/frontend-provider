@@ -1,7 +1,6 @@
 export const NavMock = [
-  { name: 'Home', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Services', href: '#' },
-  { name: 'Gallery', href: '#' },
-  { name: 'Contacts', href: '#' },
+  { name: 'Home', href: '#home' },
+  { name: 'Sobre', href: '#about' },
+  { name: 'Serviços', href: '#services' },
+  { name: 'Parceiros', href: '#partners' },
 ]
