@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const SocialMedia = styled.div`
   display: flex;
   gap: 10px;
-  margin-bottom: 30px;
+  margin:  30px 0;
   img {
     width: 50px;
     height: 40px;

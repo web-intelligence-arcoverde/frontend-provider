@@ -4,7 +4,7 @@ import { Title, Line, MiniContainer } from './style'
 
 const OurService = () => {
   return (
-    <Container id="services" responsive height="auto">
+    <Container id="services" responsive>
       <Title>
         <Line />
         <h1>

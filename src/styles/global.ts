@@ -40,5 +40,6 @@ export const Container = styled.div<ContainerProps>`
   background: ${props => (props.background ? props.background : 'transparent')};
   @media (max-width: 769px) {
     flex-direction: ${({ responsive }) => (responsive ? 'column' : 'row')};
+    height: auto;
   }
 `

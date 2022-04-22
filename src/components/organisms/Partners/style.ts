@@ -51,10 +51,12 @@ export const PartnersLogoContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 80px;
+  justify-content: space-around;
+  
   img {
     width: 100px;
     height: 100px;
+    margin: 30px;
     :hover {
       opacity: 0.5;
     }

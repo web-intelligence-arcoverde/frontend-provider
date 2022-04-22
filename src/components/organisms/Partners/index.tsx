@@ -20,12 +20,7 @@ const Partners = () => {
           <img src={logo.icon} alt="*" />
         ))}
       </PartnersLogoContainer>
-      <Button
-        children="Explore Mais"
-        onClick={(): void => {
-          window.scrollTo(0, 0)
-        }}
-      />
+      <Button children="Explore Mais" onClick={() => {}} />
     </Container>
   )
 }
