@@ -3,7 +3,7 @@ import { COLORS } from 'src/common';
 
 export const NavigationModal = styled.ul`
 position: fixed;
-top: 6.8%;
+top: 67px;
 left: 0;
 width: 55%;
 z-index: 20;
