@@ -9,7 +9,8 @@ interface ButtonProps {
 export const CardButton = styled.button<ButtonProps>`
   cursor: pointer;
   width: 250px;
-  background: ${({ background }) => (background ? COLORS.blue : COLORS.white)};
+  background: ${({ background }) =>
+    background ? COLORS.PRIMARY_COLOR : COLORS.white};
   color: ${({ color }) => (color ? COLORS.white : COLORS.black)};
   font-size: 16px;
   padding: 20px 30px;

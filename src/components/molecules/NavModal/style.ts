@@ -32,7 +32,7 @@ export const NavigationModal = styled.ul`
     color: ${COLORS.black};
     cursor: pointer;
     :hover {
-      color: ${COLORS.blue};
+      color: ${COLORS.PRIMARY_COLOR};
     }
   }
 `

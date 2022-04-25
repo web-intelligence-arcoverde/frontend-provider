@@ -14,8 +14,8 @@ export const H2 = styled.h2`
 export const Triangle = styled.h1`
   background: ${COLORS.white};
   border-top: 20px solid transparent;
-  border-left: 40px solid ${COLORS.blue};
-  border-right: 40px solid ${COLORS.blue};
+  border-left: 40px solid ${COLORS.PRIMARY_COLOR};
+  border-right: 40px solid ${COLORS.PRIMARY_COLOR};
 `
 
 export const Number = styled.h1`
@@ -40,7 +40,7 @@ export const H5 = styled.h5`
   @media (max-width: 769px) {
     width: 350px;
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     font-size: 18px;
   }
 `

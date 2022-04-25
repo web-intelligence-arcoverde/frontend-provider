@@ -13,7 +13,7 @@ export const ImgContainer = styled.div`
 `
 
 export const Divider = styled.div`
-  border-bottom: 4px solid ${COLORS.blue};
+  border-bottom: 4px solid ${COLORS.PRIMARY_COLOR};
   width: 45px;
 `
 

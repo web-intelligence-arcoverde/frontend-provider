@@ -5,11 +5,11 @@ export const Title = styled.div`
   display: flex;
   align-items: center;
   h1 {
-    color: ${COLORS.blue};
+    color: ${COLORS.PRIMARY_COLOR};
     border-left: 1px solid #000;
     border-right: 1px solid #000;
     padding: 0 20px;
-    @media (max-width:769px){
+    @media (max-width: 769px) {
       border: none;
       margin-top: 50px;
     }
@@ -23,7 +23,7 @@ export const Line = styled.div`
   background-color: ${COLORS.black};
   width: 100px;
   margin-bottom: 5px;
-  @media (max-width:769px){
+  @media (max-width: 769px) {
     display: none;
   }
 `

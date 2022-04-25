@@ -29,7 +29,11 @@ export const Phone = styled.div`
   filter: grayscale(70%);
   :hover {
     filter: grayscale(0%);
+<<<<<<< HEAD
     color: ${COLORS.blue};
+=======
+    color: ${COLORS.PRIMARY_COLOR};
+>>>>>>> origin/refactor/colors
   }
   img {
     width: 25px;
@@ -53,7 +57,7 @@ export const NavContainer = styled.ul`
     border-radius: 50px;
     padding: 12px 20px;
     :hover {
-      background: ${COLORS.blue};
+      background: ${COLORS.PRIMARY_COLOR};
       color: ${COLORS.white};
     }
     a {
