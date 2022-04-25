@@ -11,21 +11,19 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
     animation: ${FadeInAnimation} 1s ease-in-out;
-   img{
-     width: 100%;
-    @media (max-width:769px){
+    img {
       width: 100%;
-      height: 100vh;
+      @media (max-width: 769px) {
+        width: 100%;
+        height: 100vh;
+      }
     }
-   }
-  
-  } 
+  }
   .carousel-item h3 {
     position: absolute;
     bottom: 350px;
     left: 20%;
     font-size: 30px;
-    
   }
   .carousel-item p {
     position: absolute;
@@ -33,7 +31,7 @@ export const Container = styled.div`
     width: 70%;
     left: 20%;
     font-size: 18px;
-    @media (max-width:769px){
+    @media (max-width: 769px) {
       display: none;
     }
   }
@@ -49,17 +47,15 @@ export const CardButton = styled.div`
   position: relative;
   bottom: 180px;
   gap: 15px;
-  @media (max-width:769px){
-      flex-direction: column-reverse;
-      position: absolute;
-      bottom: 150px;
-      
-    }
+  @media (max-width: 769px) {
+    flex-direction: column-reverse;
+    position: absolute;
+    bottom: 150px;
+  }
   Button {
     :hover {
-      background-color: ${COLORS.blue};
+      background-color: ${COLORS.PRIMARY_COLOR};
       color: ${COLORS.white};
     }
-   
   }
 `

@@ -28,7 +28,7 @@ const Support = () => {
     { number: <CountUp end={365} />, name: 'Dias por ano' },
   ]
   return (
-    <Container ref={ref} responsive background={COLORS.blue}>
+    <Container ref={ref} responsive background={COLORS.PRIMARY_COLOR}>
       <Triangle />
       <H2>um suporte que funciona</H2>
       <Container responsive direction="row">

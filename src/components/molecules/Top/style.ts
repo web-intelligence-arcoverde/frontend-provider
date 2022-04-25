@@ -20,7 +20,7 @@ export const Contact = styled.div`
   gap: 20px;
   text-align: center;
   a {
-    color: #42a5f5;
+    color: ${COLORS.PRIMARY_COLOR};
   }
 `
 export const CardIcons = styled.div`

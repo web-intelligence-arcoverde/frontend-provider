@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const SocialMedia = styled.div`
   display: flex;
   gap: 10px;
-  margin:  30px 0;
+  margin: 30px 0;
   img {
     width: 50px;
     height: 40px;
@@ -18,7 +18,7 @@ export const SocialMedia = styled.div`
 export const Copyright = styled.h5`
   color: ${COLORS.white};
 
-  @media (max-width:769px){
+  @media (max-width: 769px) {
     font-size: 14px;
   }
 `

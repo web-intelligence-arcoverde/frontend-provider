@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Card = styled.div`
   display: flex;
@@ -6,20 +6,20 @@ export const Card = styled.div`
   align-items: center;
   padding: 40px;
   width: 25%;
-  border: 1px solid #cccccc54 ;
+  border: 1px solid #cccccc54;
   gap: 20px;
-  box-shadow: 0px -4px 24px -5px rgba(179,173,179,0.42);
-  
+  box-shadow: 0px -4px 24px -5px rgba(179, 173, 179, 0.42);
+
   img {
-      width: 30px;
+    width: 30px;
   }
-  :hover{
-    box-shadow: 0px 1px 26px -6px rgba(0,0,0,0.39);
+  :hover {
+    box-shadow: 0px 1px 26px -6px rgba(0, 0, 0, 0.39);
   }
-  @media (max-width:769px){
+  @media (max-width: 769px) {
     width: 90%;
-    :last-child{
-   margin-bottom: 20px;
+    :last-child {
+      margin-bottom: 20px;
+    }
   }
-  }
-`;
+`
