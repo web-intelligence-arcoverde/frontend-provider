@@ -11,7 +11,7 @@ const NavModal = ({ setVisible }: any) => {
             setVisible(false)
           }}
         >
-          <AnchorLink offset={item.offset} href={item.href}>
+          <AnchorLink offset={() => item.offset} href={item.href}>
             {item.name}
           </AnchorLink>
         </li>

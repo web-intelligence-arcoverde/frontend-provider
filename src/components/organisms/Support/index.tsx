@@ -1,4 +1,3 @@
-import React from 'react'
 import { COLORS } from 'src/common'
 import { Container } from 'src/styles/global'
 import Lottie from 'react-lottie'
@@ -17,9 +16,8 @@ const Support = () => {
       preserveAspectRatio: 'xMidYMid slice',
     },
   }
-  // Animaçao numeros
+
   const { ref, inView } = useInView({
-    /* Optional options */
     threshold: 0,
   })
   const Numbersinfor = [

@@ -13,9 +13,9 @@ export const NavigationModal = styled.ul`
   height: 90vh;
   gap: 30px;
   padding-top: 30px;
-  animation: show 1s forwards;
+  animation: showw 1s forwards;
 
-  @keyframes show {
+  @keyframes showw {
     from {
       opacity: 0.5;
       transform: translate3d(-40%, 0, 0);

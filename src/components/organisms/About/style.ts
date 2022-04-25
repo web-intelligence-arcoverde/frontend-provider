@@ -22,11 +22,20 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  animation: show 1s forwards;
   @media (max-width: 769px) {
     text-align: start;
     margin: 150px 0 50px 0;
     width: 90%;
     height: auto;
+  }
+  @keyframes show {
+    from {
+      transform: translate3d(-40%, 0, 0);
+    }
+    to {
+      transform: rotate3d(0, 0, 0);
+    }
   }
 `
 export const Describe = styled.p`
