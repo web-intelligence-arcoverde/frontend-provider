@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 110vh;
+  height: 80vh;
   color: ${COLORS.white};
   background: ${COLORS.PRIMARY_COLOR};
   h1 {
@@ -43,6 +43,23 @@ export const DividerContainer = styled.div`
     width: 15%;
     margin: 0;
     margin-bottom: 50px;
+  }
+`
+export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: show 1s forwards;
+  @keyframes show {
+    from {
+      opacity: 0.1;
+      transform: translate3d(0, 40%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: rotate3d(0, 0, 0);
+    }
   }
 `
 export const PartnersLogoContainer = styled.div`
