@@ -3,9 +3,9 @@ import { COLORS } from 'src/common'
 
 export const NavigationModal = styled.ul`
   position: fixed;
-  top: 67px;
+  top: 65px;
   left: 0;
-  width: 55%;
+  width: 70%;
   z-index: 20;
   display: flex;
   flex-direction: column;
@@ -13,8 +13,7 @@ export const NavigationModal = styled.ul`
   height: 90vh;
   gap: 30px;
   padding-top: 30px;
-  -webkit-box-shadow: 0px -3px 11px -2px rgba(82, 82, 82, 0.46);
-  box-shadow: 0px -3px 11px -2px rgba(82, 82, 82, 0.46);
+  
   animation: show 1s forwards;
 
   @keyframes show {
