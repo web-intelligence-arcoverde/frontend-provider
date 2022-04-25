@@ -5,7 +5,7 @@ import { ImgContainer, Divider, Describe, TextContainer } from './style'
 
 const About = () => {
   return (
-    <Container direction="row">
+    <Container direction="row" id="about">
       <Container width="60%">
         <TextContainer>
           <h1>Sobre</h1>

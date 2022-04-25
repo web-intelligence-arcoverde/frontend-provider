@@ -50,7 +50,7 @@ const Slide = ({ props }: any) => {
   })
 
   return (
-    <Container>
+    <Container id="home">
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators
           items={SectionSlide}

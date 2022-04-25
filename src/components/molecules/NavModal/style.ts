@@ -13,7 +13,6 @@ export const NavigationModal = styled.ul`
   height: 90vh;
   gap: 30px;
   padding-top: 30px;
-  
   animation: show 1s forwards;
 
   @keyframes show {

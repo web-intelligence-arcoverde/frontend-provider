@@ -1,3 +1,4 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { NavMock } from 'src/__mocks__/nav'
 import { NavigationModal } from './style'
 
@@ -10,7 +11,9 @@ const NavModal = ({ setVisible }: any) => {
             setVisible(false)
           }}
         >
-          <a href={item.href}>{item.name}</a>
+          <AnchorLink offset={item.offset} href={item.href}>
+            {item.name}
+          </AnchorLink>
         </li>
       ))}
     </NavigationModal>
