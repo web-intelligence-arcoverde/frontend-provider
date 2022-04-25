@@ -4,7 +4,6 @@ import { CardImgs, Img } from './style'
 const SocialMedia = () => {
   return (
     <CardImgs>
-      {' '}
       {SocialMediaIcons.map(media => (
         <Img src={media.icon} alt="" />
       ))}

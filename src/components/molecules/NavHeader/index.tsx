@@ -6,7 +6,7 @@ import { Icons } from 'src/assets'
 const NavHeader: React.FC = () => {
   return (
     <Container>
-      <LogoWeb src={Icons.logo} alt="*" width="150px" />
+      <LogoWeb src={Icons.logo} alt="*" />
       <Phone>
         <img src={Icons.phone} alt="phone" />
         <h5>(87)92022440</h5>

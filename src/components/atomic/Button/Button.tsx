@@ -3,8 +3,8 @@ import { ReactNode } from 'react'
 import { CardButton } from './styles'
 
 interface ButtonProps {
-  background?: string
-  color?: string
+  background?: any
+  color?: any
   children: ReactNode
   onClick: () => void
   onMouseOver?: () => void

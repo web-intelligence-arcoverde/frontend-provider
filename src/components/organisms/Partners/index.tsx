@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button } from 'src/components/atomic/Button/Button'
 import { PartnersLogo } from 'src/assets'
 import { Container, DividerContainer, PartnersLogoContainer } from './style'
